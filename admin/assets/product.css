@@ -1,0 +1,114 @@
+/* Form thêm sản phẩm */
+form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button[type="submit"],
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover,
+.btn:hover {
+  background-color: #45a049;
+}
+
+button[type="button"] {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #ddd;
+}
+
+/* Bảng danh sách sản phẩm */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+td img {
+  width: 50px;
+  height: auto;
+}
+
+td a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}

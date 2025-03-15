@@ -1,0 +1,235 @@
+/* Banner */
+.banner__slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner__slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.banner__slider-item {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.banner__slider-item.active {
+  display: block;
+}
+
+.banner__slider-area {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 30%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.banner__slider-area--prev {
+  left: 0;
+}
+
+.banner__slider-area--next {
+  right: 0;
+}
+
+/* ------------------------------------------------- */
+/* About */
+.index__about {
+  padding: 200px 0 100px 0;
+  background-color: var(--background-color);
+  text-align: center;
+  position: relative;
+}
+.index__about h1 {
+  font-size: 3.4rem;
+  margin-bottom: 16px;
+  color: var(--orange-color);
+}
+.index__about p {
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+  color: #8b8b99;
+}
+.index__about__content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 128px;
+}
+.index__about__content__item img {
+  width: 135px;
+}
+.index__about__content__item h3 {
+  font-size: 1.8rem;
+  margin-top: 16px;
+  font-weight: 700;
+}
+
+.collection__index:hover {
+  color: var(--red-color);
+}
+
+/* ------------------------------------------------- */
+/* Recommend */
+.index__recommend {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1300px;
+}
+.recommend__item {
+  width: 262.5px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.recommend__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.2s ease;
+}
+.recommend__item:hover img {
+  filter: brightness(0.6);
+}
+.recommend__item button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: var(--red-color);
+  color: var(--background-color);
+  padding: 10px 32px;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+.recommend__item button:hover {
+  background-color: var(--orange-color);
+}
+
+/* ------------------------------------------------- */
+/* Hotline */
+.index__hotline {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f5f6fc;
+}
+.index__hotline h2 {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+.index__hotline p {
+  font-size: 4.8rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.index__hotline p:hover {
+  color: var(--red-color);
+}
+.index__hotline span {
+  font-size: 1.4rem;
+}
+
+/* ------------------------------------------------- */
+/* News */
+.index__news {
+  padding: 100px 0;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.index__news h1 {
+  font-size: 3.4rem;
+  margin-bottom: 32px;
+  color: var(--orange-color);
+}
+.index__news h1:hover {
+  cursor: pointer;
+  color: var(--red-color);
+}
+.news__block {
+  width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.news__content {
+  background-color: #f5f6fc;
+  height: 400px;
+  width: 380px;
+  position: relative;
+}
+
+.news__content img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.news__content-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  padding: 8px;
+  position: absolute;
+  top: 180px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+.news__content-date p,
+.news__content-date i {
+  color: #797980;
+  margin-right: -7px;
+}
+.news__content-date span {
+  color: var(--red-color);
+  font-weight: 600;
+}
+
+.news__content-text {
+  padding: 32px;
+}
+.news__content-text h3 {
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+.news__content-text p {
+  font-size: 1.3rem;
+  color: #8b8b99;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* ------------------------------------------------- */
+/* Top brand */
+.top__brand {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 0 0 100px 0;
+}
+.top__brand h1 {
+  font-size: 3.4rem;
+  margin-bottom: 32px;
+  color: var(--orange-color);
+}
+.top__brand__content {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
