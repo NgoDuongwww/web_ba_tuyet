@@ -29,7 +29,7 @@ This website allows you to explore and order products easily. Experience it toda
    git clone https://github.com/NgoDuongwww/web_ba_tuyet.git
    ```
 2️⃣ **Set up the database**: Import the provided SQL file into MySQL.
-3️⃣ **Configure database connection** in `config.php`.
+3️⃣ **Configure database connection** in `db_connect.php`.
 4️⃣ **Run the application** on a local server or deploy it online.
 
 ---
