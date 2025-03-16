@@ -1,4 +1,6 @@
-# 🎯 **Ba Tuyet Web**
+<p align="center">
+ <h1 align="center">🎯Sunao Website</h1>
+</p>
 
 🚀 *Welcome to the Ba Tuyet Website project!*
 
@@ -37,10 +39,21 @@ This website allows you to explore and order products easily. Experience it toda
 3️⃣ Admins can log in to manage products and orders.  
 
 ---
-## 🛠 **Technologies Used**
-- Frontend: <img src="public/images/html.svg">, <img src="public/images/css3.svg">, <img src="public/images/js.svg">, <img src="public/images/bootstrap.svg">  
-- Backend: <img src="public/images/php.svg">, <img src="public/images/mysql.svg" width="60" height="32">  
-- Tools: <img src="public/images/laragon.svg" width="60" height="30">, <img src="public/images/visualstudio_code.svg">, <img src="public/images/git.svg" width="60" height="30">  
+## 🛠 Technologies Used
+### 🌐 **Frontend**
+- <img src="public/images/html.svg"> **HTML**
+- <img src="public/images/css3.svg"> **CSS**
+- <img src="public/images/js.svg"> **JavaScript**
+- <img src="public/images/bootstrap.svg"> **Bootstrap**
+
+### 🖥 **Backend**
+- <img src="public/images/php.svg"> **PHP**
+- <img src="public/images/mysql.svg" width="30" height="30"> **MySQL**
+
+### 🛠 **Development Tools**
+- <img src="public/images/visualstudio_code.svg"> **Visual Studio Code**
+- <img src="public/images/git.svg" width="30" height="30"> **Git**
+- <img src="public/images/laragon.svg" width="30" height="30"> **Laragon**
 
 ---
 ## 🤝 **Contributing**
