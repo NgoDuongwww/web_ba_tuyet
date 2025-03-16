@@ -1,5 +1,5 @@
 <p align="center">
- <h1 align="center">🎯Sunao Website</h1>
+ <h1 align="center">🎯Ba Tuyet Website</h1>
 </p>
 
 🚀 *Welcome to the Ba Tuyet Website project!*
