@@ -10,6 +10,14 @@ This website allows you to explore and order products easily. Experience it toda
 ## 🔍 **Overview**
 📝 The website offers a diverse product catalog with an **online ordering system**, making shopping convenient and effortless.
 
+<p align="center">
+  <img src="public/images/review_1 (2).png" width="600"/><br/>
+</p>
+
+<p align="center">
+  <img src="public/images/review_1 (1).png" width="600"/><br/>
+</p>
+
 ---
 ## ✨ **Key Features**
 ✅ **Product Catalog Display**: Intuitive interface for easy product search.  
