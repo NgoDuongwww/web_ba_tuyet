@@ -2,13 +2,17 @@
  <h1 align="center">🎯Ba Tuyet Website</h1>
 </p>
 
-🚀 *Welcome to the Ba Tuyet Website project!*
+---
+## 💡 Introduction  
+**Ba Tuyet Website** is a simple e-commerce platform that allows users to browse products and place orders easily. Designed for user-friendliness and fast interaction, it also includes an admin panel for product management.
 
-This website allows you to explore and order products easily. Experience it today!
+### 🌟 Key Features  
+- 🛍️ **Product Catalog Display** – Intuitive interface for browsing and searching products.  
+- ⚡ **Fast Ordering** – Add to cart and checkout in just a few clicks.  
+- 🛠️ **Admin Panel** – Admins can manage product listings and orders efficiently.
 
 ---
-## 🔍 **Overview**
-📝 The website offers a diverse product catalog with an **online ordering system**, making shopping convenient and effortless.
+## 🖼️ Preview
 
 <p align="center">
   <img src="public/images/review_1 (2).png" width="600"/><br/>
@@ -16,13 +20,13 @@ This website allows you to explore and order products easily. Experience it toda
 
 <p align="center">
   <img src="public/images/review_1 (1).png" width="600"/><br/>
-</p>
+</p> 
 
 ---
-## ✨ **Key Features**
-✅ **Product Catalog Display**: Intuitive interface for easy product search.  
-✅ **Fast Ordering**: Allows customers to add products to the cart and complete purchases effortlessly.  
-✅ **Admin Panel**: Dedicated management page for handling products and orders.  
+## 🎮 **User Guide**
+1️⃣ Browse the catalog and view product details.  
+2️⃣ Add products to the cart and proceed to checkout.  
+3️⃣ Admins can log in to manage products and orders.  
 
 ---
 ## ⚙️ **Setup & Run Application**
@@ -39,12 +43,6 @@ This website allows you to explore and order products easily. Experience it toda
 2️⃣ **Set up the database**: Import the provided SQL file into MySQL.
 3️⃣ **Configure database connection** in `db_connect.php`.
 4️⃣ **Run the application** on a local server or deploy it online.
-
----
-## 🎮 **User Guide**
-1️⃣ Browse the catalog and view product details.  
-2️⃣ Add products to the cart and proceed to checkout.  
-3️⃣ Admins can log in to manage products and orders.  
 
 ---
 ## 🛠 Technologies Used
